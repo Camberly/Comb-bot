@@ -1,0 +1,3 @@
+# Ignore the config file for security purposes
+# Put API key, secrets and other sensitive information here so it's not commited
+config.json
