@@ -126,7 +126,7 @@ module.exports = class webScrapeCommands extends Command{
     constructor(client){
         super(client, {
             name: 'bullets',
-			group: 'webscraping',
+			group: 'tarkov',
 			memberName: 'bullets',
             description: 'Obtains data about ballistics in Tarkov',
             args: [

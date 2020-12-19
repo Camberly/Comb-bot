@@ -1,4 +1,4 @@
-const { token, twitchApiKey, port } = require('./config.json')
+const { token } = require('./config.json')
 const Discord = require('discord.js')
 const { CommandoClient } = require('discord.js-commando')
 const path = require('path')
@@ -12,7 +12,7 @@ client.registry
 	.registerDefaultTypes()
 	.registerGroups([
         ['twitch', 'twitch API request functions and webhooks'],
-        ['webscraping', 'Recieves data from websites to get up to date info']
+        ['tarkov', 'Tarkov ballistics information, maybe more info in future']
 	])
 	.registerDefaultGroups()
 	.registerDefaultCommands()

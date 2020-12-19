@@ -2,3 +2,4 @@
 # Put API key, secrets and other sensitive information here so it's not commited
 config.json
 node_modules/
+twitchConfig.json
